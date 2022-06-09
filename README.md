@@ -12,6 +12,9 @@
 <ul>
 
   <li>1.HTML - Linguagem de Marcação de Textos (**Estrutura**)</li>
+  ```
+  https://www.w3schools.com/html/default.asp
+  ```
   <li>2.CSS -Linguagem de **Estilização** (Cores, fontes, background)</li>
   <li>3.Javascript - Linguagem de Programação Script (**Funcionalidade**)</li>
   <li>4.Git-Github - **Versionamento** de Código (clone, pull push, commit, merge)</li>
