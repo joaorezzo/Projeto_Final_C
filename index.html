@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caneca Nerd</title>
     <link rel="stylesheet" type="text/css" href="geral.css"/>
+    <link rel="stylesheet" href="./reset.css">
 
     <!--Exemplo de CSS  Interno-->
     <style>
@@ -15,11 +16,17 @@
 
     </style>
 
+    <script type="text/javascript" src="./bibliotecas/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./plugins/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="./plugins/coin-slider-styles.css" type="text/css" />
+
+
 </head>
 <body>
     <div id="topo">
         <div id="Logo">
-        <img src="./imagens/caneca.png" alt="Caneca">  CanecaNerd &reg;
+        <img src="./imagens/caneca.png" alt="Caneca">  
+        <p> CanecaNerd</p> &reg;
         </div>
         <nav>
             <ul>
@@ -29,6 +36,12 @@
                 <li><<a href="midia.html"><img src="./imagens/instagram.png" alt="insta"></a></li>
             </ul>
         </nav>
+
+        <div id="busca">
+            <form action="#" method="post">
+            pesquisa    <input type="text">
+            </form>
+        </div>
     </div>
     
 
@@ -56,7 +69,22 @@
             próximo aos grandes poderes do nosso país.
                 
         </p>
-
+        <div id='coin-slider'>
+            <a href="img01_url" target="_blank">
+                <img src='./imagens/pexels-dominika-roseclay-894609.jpg' >
+                <span>
+                    Imagem teste 1
+                </span>
+            </a>
+            ......
+            ......
+            <a href="imgN_url">
+                <img src='./imagens/pexels-drew-williams-3483967.jpg' >
+                <span>
+                    Imagem teste 2
+                </span>
+            </a>
+        </div>
         <p style="text-align:center;">
             A Equipe é formada por professores, alunos especialistas e  profissionais
             do mercado local.
@@ -67,6 +95,14 @@
     <div id="rodape">
         CanecaNerd &copy;
     </div>
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#coin-slider').coinslider();
+        });
+    </script>
 </body>
 </html>
 
