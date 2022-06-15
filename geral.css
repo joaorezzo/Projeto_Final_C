@@ -1,21 +1,36 @@
 /*Criando o topo do site*/
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 #topo{
     width:100%;
     height:120px;
     border:1px solid green;
-    background-color:#879652;
+    background-color:#1673be;
     color:#ffffff ;
     text-transform: uppercase;
 
 }
 
-.abaixodevinte{
-    color:blue;
+#logo{
+    margin-left:50px;
+    margin-top:15px;
+    font-size:25px;
 }
 
+.grid{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav{
+
+    position: absolute;
+    top:45px;
+    left:600px;
+}
+nav img{
+    width:47px;
+    height:47px;
+}
 
 
 
@@ -26,58 +41,50 @@ body{
     background-color:cornsilk;
 }
 
-#logo{
-    margin-left: 50px;
-    margin-top: 15px;
-}
+
+
 
 /*filho*/
 
-ul li{
+ul li{   
     display: inline;
-    padding-left: 80px;     
+    padding-left: 80px;
+    width:50px;
+    height:50px;     
 }
 /*neto*/
 ul li a{
     text-decoration: none;
     color:black;
-}
-ul li a:hover{
-    background-color: coral;
-    width: 35px;
-    height: 35px;
 
 }
-
-
-#principal{
-    width: 100%;
-    height: 500px;
-    border: 2px solid red;
-
+ul li a:hover{    
+    background-color: coral;  
+    
 }
 
-
+main{
+    width:1200px;
+    height:500px;
+    border:2px solid red;
+}
 #rodape{
-    width: 100%;
-    height: 450px;
-    border: 2px solid red;
-
+    width:100%;
+    height:50px;
+    border:2px solid red;
 }
-
-nav{
-    position: absolute;
-    top: 60px;
-    left: 650px;
-}
-
-nav img{
-    width: 25px;
-    height: 25px;
-}
-
-
 #busca{
-    margin-left: 1200px;
-
+    text-align:right;
+    margin-right:20px;
 }
+
+
+
+
+
+
+
+
+    
+
+
